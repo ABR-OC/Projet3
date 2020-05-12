@@ -113,7 +113,6 @@ footer a {
 
 .card1 {
 	color: #000;
-	font-weight: ;
 	background-color: #fcdfdb;
 	padding: 7.5em 1.5em;
 }
@@ -146,7 +145,7 @@ footer a {
 	font-family: 'Kurale';
 	background-image: linear-gradient(to right bottom, #c67412, #c67412, #c67412, #c67412, #c67412, #c67412, #af5c99, #a15da3, #9b57ac, #9151b6, #834ec0, #6e4ccc);
 	-webkit-background-clip: text;
-    color: transparent;
+	color: transparent;
 }
 
 .card2 h3 {
@@ -165,11 +164,11 @@ footer a {
 .card3 h2 {
 	font-family: 'Dancing Script';
 	background-image: linear-gradient(to right bottom, #0431df, #0431df, #0431df, #0431df, #0431df, #003ae3, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: x-large;
-    font-weight: lighter;
-    margin: 1.8em 0em -1em;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: x-large;
+	font-weight: lighter;
+	margin: 1.8em 0em -1em;
 }
 
 .card3 h3 {
@@ -187,9 +186,9 @@ footer a {
 .card4 h2 {
 	font-family: 'Kaushan Script';
 	background-image: linear-gradient(to right bottom, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #9ce26c, #a5e970, #adf075, #b6f879, #bfff7e, #bfff7e);
-    -webkit-background-clip: text;
-    color: transparent;
-    margin: 1.8em 0em -1em;
+	-webkit-background-clip: text;
+	color: transparent;
+	margin: 1.8em 0em -1em;
 }
 
 .card4 h3 {
@@ -254,7 +253,6 @@ footer a {
 .menu h3 {
 	font-size: 2.5em;
 	font-weight: lighter;
-	margin-top: em;
 	padding-bottom: 0.8em;
 }
 
@@ -263,16 +261,16 @@ footer a {
 }
 
 .underline::after {
-  content: "";
-  display: block;
-  height: 3px;
-  width: 0;
-  transition: width 0.5s ease;
+	content: "";
+	display: block;
+	height: 3px;
+	width: 0;
+	transition: width 0.5s ease;
 }
 
 .underline:hover::after {
-  width: 100%;
-  background: #fdcb46;
+	width: 100%;
+	background: #fdcb46;
 }
 
 .menu ul {
@@ -390,10 +388,10 @@ footer a {
 	font-family: 'Kurale';
 	background-image: linear-gradient(to right bottom, #c67412, #c67412, #c67412, #c67412, #c67412, #c67412, #af5c99, #a15da3, #9b57ac, #9151b6, #834ec0, #6e4ccc);
 	-webkit-background-clip: text;
-    color: transparent;
-    font-weight: 500;
-    margin-bottom: 1em;
-    padding-top: 1em;
+	color: transparent;
+	font-weight: 500;
+	margin-bottom: 1em;
+	padding-top: 1em;
 }
 
 .menu2 h4 {
@@ -434,11 +432,11 @@ footer a {
 .menu3 h3 {
 	font-family: 'Dancing Script';
 	background-image: linear-gradient(to right bottom, #0431df, #0431df, #0431df, #0431df, #0431df, #003ae3, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 3.5em;
-    margin-bottom: 0.5em;
-    padding-top: 0.5em;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 3.5em;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
 }
 
 .menu3 h4 {
@@ -469,11 +467,11 @@ footer a {
 .menu4 h3 {
 	font-family: 'Kaushan Script';
 	background-image: linear-gradient(to right bottom, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #55a747, #bfff7e, #bfff7e, #bfff7e, #bfff7e, #bfff7e, #bfff7e);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 3.5em;
-    margin-bottom: 0.2em;
-    padding-top: 0.5em;
+	-webkit-background-clip: text;
+	color: transparent;
+	font-size: 3.5em;
+	margin-bottom: 0.2em;
+	padding-top: 0.5em;
 }
 
 .menu4 h4 {
