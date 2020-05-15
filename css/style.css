@@ -544,7 +544,7 @@ ul {
 	.grid {
 		display: grid;
 		grid-template-columns: 14.5em;
-		grid-row-gap: 1em;
+		grid-row-gap: 2em;
 	}
 	.btn {
 		font-size: medium;
