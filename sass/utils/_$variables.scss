@@ -1,0 +1,54 @@
+
+//==colours==//
+
+//body//
+
+$primary-Color: #579c87;
+
+$secondary-Color: #fdcb46;
+
+$third-Color: #000;
+
+//menu1//
+
+$menu1-backgroud: #fcdfdb;
+
+//menu2//
+
+$menu2-backgroud: #fff5fe;
+
+$menu2-title: transparent;
+
+$menu2-subtitle: #c67412;
+
+$menu2-color2: #a56799;
+
+$menu2-color3: #6e4ccc;
+
+$menu2-gradient:  #c67412, #c67412, #c67412, #c67412, #c67412, #c67412, #af5c99, #a15da3, #9b57ac, #9151b6, #834ec0, #6e4ccc;
+
+//menu3//
+
+$menu3-backgroud: #eef0f0;
+
+$menu3-title: transparent;
+
+$menu3-subtitle: #0887fb;
+
+$menu3-gradient: #0431df, #0431df, #0431df, #0431df, #0431df, #003ae3, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb;
+
+//menu4//
+
+$menu4-backgroud: #fdfffd;
+
+$menu4-title: transparent;
+
+$menu4-subtitle: #72bf56;
+
+$menu4-gradient_card: #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #9ce26c, #a5e970, #adf075, #b6f879, #bfff7e, #bfff7e;
+
+$menu4-gradient: #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #55a747, #bfff7e, #bfff7e, #bfff7e, #bfff7e, #bfff7e, #bfff7e;
+
+//==breakpoints-maps==//
+
+$breakpoints: (mobile-min: 320px, mobile-max: 479px, tablets-min: 480px, tablets-max: 899px, laptops-min: 768px, desktops-min: 1024px);

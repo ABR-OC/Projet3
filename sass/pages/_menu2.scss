@@ -1,0 +1,67 @@
+/*===MENU2===*/
+
+.menu--menu2 {
+	background-color: $menu2-backgroud;
+
+	& h3 {
+		font-family: $font-menu2_title;
+		@include gradient($menu2-gradient);
+		font-weight: 500;
+		margin-bottom: 1em;
+		padding-top: 1em;
+	}
+
+	& h4 {
+		font-family: $font-menu2_subtitle;
+		color: $menu2-subtitle;
+		font-size: 1.1em;
+		font-weight: bold;
+		letter-spacing: 0.1em;
+	}
+	
+	&--color2 h4 {
+		color: $menu2-color2;
+		}
+	
+	&--color3 h4 {
+		color: $menu2-color3;
+	}
+	
+	&--color2 li {
+		color: $menu2-color2;
+		}
+	
+	&--color3 li {
+		color: $menu2-color3;
+	}
+	
+	& ul {
+		font-family: $font-menu2_text;
+		color: $menu2-subtitle;
+		margin-top: 2em;
+	}
+
+	& .menu_price {
+		font-size: 1.2em;
+		margin-top: 0.8em;
+	}
+
+	@include smartphones {
+		& h3 {
+			font-size: 2em;
+		}
+
+		& h4 {
+			line-height: 1em;
+			margin-left: -1em;
+		}
+
+		& .menu_content img {
+			width: 20%;
+		}
+			
+		& ul {
+			margin-top: 2em;
+		}
+	}
+}

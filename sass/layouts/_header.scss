@@ -1,0 +1,21 @@
+/*===HEADER===*/
+
+header {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: $primary-Color;
+	margin: 0;
+	padding: 1em 0;
+
+	.header_title {
+		font-family: 'Montserrat', sans-serif;
+		color: $secondary-Color;
+		font-size: 1.35em;
+		line-height: 0.8em;
+		letter-spacing: -0.18em;
+	}
+}
+
+
+

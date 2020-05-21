@@ -1,0 +1,47 @@
+/*===MENU3===*/
+
+.menu--menu3 {
+	color: $third-Color;
+	background-color: $menu3-backgroud;
+
+	& h3 {
+		font-family: $font-menu3_title;
+		@include gradient($menu3-gradient);
+		font-size: 3.5em;
+		margin-bottom: 0.5em;
+		padding-top: 0.5em;
+	}
+
+	& h4 {
+		font-family: $font-menu3_subtitle;
+		font-size: medium;
+		font-weight: lighter;
+		margin-bottom: 1em;
+	}
+	
+	& ul {
+		font-family: $font-menu3_text;
+		margin-bottom: 0em;
+	}
+	
+	& .menu_price {
+		font-size: 1.1em;
+	}
+
+	@include smartphones {
+		& h3 {
+			font-size: 2.5em;
+		}
+
+		& h4 {
+			line-height: 1em;
+			margin-left: -1em;
+			margin-top: 2em;
+		}
+			
+		& .menu_content img {
+			width: 22%;
+			padding: 0em 0.5em;
+		}
+	}
+}

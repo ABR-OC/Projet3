@@ -1,0 +1,34 @@
+/*===FOOTER===*/
+
+footer {
+	display: flex;
+	justify-content: center;
+	background-color: $primary-Color;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1.1em 0em;
+
+	& a {
+		color: $secondary-Color;
+		font-size: x-large;
+		font-weight: 500;
+		padding: 0em 6em;
+
+		@include smartphones {
+			font-size: medium;
+			padding: 0em 1em;
+		}
+	
+		@include tablets {
+			font-size: medium;
+			padding: 0em 5em;
+		}
+	
+		@include laptops {
+			font-size: medium;
+			padding: 0em 5em;
+		}
+	}
+}

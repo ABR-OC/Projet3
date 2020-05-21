@@ -1,0 +1,88 @@
+/*ANIMATION-HOME*/
+
+/*Pour chaque item de type menu, une animation qui fait un zoom sur l'image devra
+*être intégrée, avec un effet de fondu -réduire l'opacité- sans faire grossir le cadre
+*initial
+*/
+
+.card--zoom {
+    transition: transform 300ms, opacity 250ms 50ms;
+
+    &:hover {
+        transform: scale(1.2);
+        opacity: 0.5;
+    }
+}
+
+/*ANIMATION-BUTTON*/
+
+/*dans la section prochainement, des points de suspension devront s’animer
+*progressivement. Ils pourront soit s’agiter comme quand quelqu’un tape un
+*nouveau message, soit apparaître progressivement
+*/
+
+.btn-soon--dots::after {
+    content: " .";
+    animation: dots 2s infinite;
+}
+
+@keyframes dots {
+    0%, 20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+    40% {
+        color: #fdcb46;
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+    60% {
+        text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 rgba(0, 0, 0, 0);
+    }
+    80%, 100% {
+        text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 #fdcb46;
+    }
+}
+
+/*ANIMATION-MENU*/
+
+/*les titres représentant les catégories entrées, plats, desserts devront être soulignés
+*de gauche à droit au survol de la souris
+*/
+
+.menu_h4--underline::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    transition: width 0.5s ease;
+}
+
+.menu_h4--underline:hover::after {
+    width: 100%;
+    background: $secondary-Color;
+}
+
+/*ANIMATION-FOOTER*/
+
+/*les boutons “contact” et “mentions légales” devront se secouer (effet wiggle)
+*/
+
+.footer_a--wiggle:hover {
+    animation: wiggle 0.82s cubic-bezier(0.65, 0.23, 0.41, 0.79);
+    transform: translate(0, 0);
+}
+
+@keyframes wiggle {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}

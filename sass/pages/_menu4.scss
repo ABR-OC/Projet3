@@ -1,0 +1,68 @@
+/*===MENU4===*/
+
+.menu--menu4 {
+	color: $third-Color;
+	background-color: $menu4-backgroud;
+
+	& .menu_content img {
+		width: 12em;
+		height: 0.8em;
+	}
+	
+	& h3 {
+		font-family: $font-menu4_title;
+		@include gradient($menu4-gradient);
+		font-size: 3.5em;
+		margin-bottom: 0.2em;
+		padding-top: 0.5em;
+	}
+	
+	& h4 {
+		font-family: $font-menu4_subtitle;
+		font-size: 1.1em;
+		font-weight: normal;
+		margin-bottom: 0.8em;
+	}
+	
+	& ul {
+		font-family: $font-menu4_text;
+		margin-bottom: 0.5em;
+	}
+	
+	& li {
+		width: 32em;
+		margin-left: -1em;
+	}
+	
+	& .menu_price {
+		font-size: 1.2em;
+		margin-top: 0.8em;
+	}
+
+	@include smartphones {
+		& h3 {
+			font-size: 2.5em;
+		}
+
+		& h4 {
+			line-height: 1em;
+			margin-left: -1.5em;
+			font-size: 1.2em;
+			margin-top: 2em;
+		}
+
+		& .menu_content img {
+			width: 28%;
+			padding: 0em 1em;
+		}
+
+		& li {
+			width: 16em;
+			margin-left: -0.5em;
+		}
+
+		& .menu_price {
+		margin-top: -0.8em;
+		}
+	}
+}

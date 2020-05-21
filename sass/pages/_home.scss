@@ -1,0 +1,115 @@
+/*
+*===HOME=== 
+*/
+
+.menu-grid {
+	display: inline-grid;
+	grid-template-columns: 14.5em 14.5em;
+	grid-template-rows: 20em 20em;
+	grid-gap: 2.7em 3em;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	padding: 0em 3em 3em;
+
+	&_item {
+		text-align: center;
+		font-size: 0.8em;
+		box-shadow: 0em 0em 0.625em #ccc;
+	}
+
+	@include smartphones {
+		display: grid;
+		grid-template-columns: 14.5em;
+		grid-row-gap: 2em;
+	}
+}
+
+/*===CARD-MENU1===*/
+
+.menu-grid_item--card1 {
+	color: $third-Color;
+	background-color: $menu1-backgroud;
+	padding: 7.5em 1.5em;
+
+	& h2{
+		font-family: $font-menu1_title;
+		font-weight: lighter;
+	}
+
+	& h3{
+		font-family: $font-menu1_subtitle;
+		font-style: italic;
+		text-transform : uppercase;
+		font-size: xx-large;
+		font-weight: lighter;
+		margin-top: -0.3em;
+	}
+
+	.card1_note {
+		width: 18%;
+		margin-bottom: -2em;
+	}
+}
+
+/*===CARD-MENU2===*/
+
+.menu-grid_item--card2 {
+	background-color: $menu2-backgroud;
+	padding: 8.5em 1.5em;
+
+	& h2 {
+		font-family: $font-menu2_title;
+		@include gradient($menu2-gradient);
+	}
+
+	& h3 {
+		font-family: $font-menu2_subtitle;
+		color: $menu2-subtitle;
+		font-size: x-large;
+		letter-spacing: 0.1em;
+		margin-top: -0.3em;
+	}
+}
+
+/*===CARD-MENU3===*/
+
+.menu-grid_item--card3 {
+	background-color: $menu3-backgroud;
+	padding: 6.3em 1.5em;
+
+	& h2 {
+		font-family: $font-menu3_title;
+		@include gradient($menu3-gradient);
+		font-size: x-large;
+		font-weight: lighter;
+		margin: 1.8em 0em -1em;
+	}
+
+	& h3 {
+		font-family: $font-menu3_subtitle;
+		color: $menu3-subtitle;
+		font-size: xx-large;
+		font-weight: lighter;
+	}
+}
+
+/*===CARD-MENU4===*/
+
+.menu-grid_item--card4 {
+	background-color: $menu4-backgroud;
+	padding: 6.5em 1.5em;
+
+	& h2 {
+		font-family: $font-menu4_title;
+		@include gradient($menu4-gradient_card);
+		margin: 1.8em 0em -1em;
+	}
+
+	& h3 {
+		font-family: $font-menu4_subtitle;
+		color: $menu4-subtitle;
+		font-size: xx-large;
+		font-weight: lighter;
+	}
+}

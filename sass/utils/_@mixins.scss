@@ -1,0 +1,57 @@
+//==gradients==//
+
+//menu2//
+
+@mixin gradient($menu2-gradient) {
+    background-image: linear-gradient(to right bottom, $menu2-gradient);
+	-webkit-background-clip: text;
+	color: $menu2-title;
+}
+
+//menu3//
+
+@mixin gradient($menu3-gradient) {
+    background-image: linear-gradient(to right bottom, $menu3-gradient);
+	-webkit-background-clip: text;
+	color: $menu2-title;
+}
+
+//menu4//
+
+@mixin gradient($menu4-gradient_card) {
+    background-image: linear-gradient(to right bottom, $menu4-gradient_card);
+	-webkit-background-clip: text;
+	color: $menu2-title;
+}
+
+@mixin gradient($menu4-gradient) {
+    background-image: linear-gradient(to right bottom, $menu4-gradient);
+	-webkit-background-clip: text;
+	color: $menu2-title;
+}
+
+//==media queries==//
+
+@mixin smartphones {
+	@media only screen and (min-width: map-get($breakpoints, mobile-min)) and (max-width: map-get($breakpoints, mobile-max)) {
+		@content;
+	}
+}
+
+@mixin tablets {
+	@media only screen and (min-width: map-get($breakpoints, tablets-min)) and (max-width : map-get($breakpoints, tablets-max)) and (orientation: landscape) {
+		@content;
+	}
+}
+
+@mixin laptops {
+	@media only screen and (min-width: map-get($breakpoints, laptops-min)) {
+		@content;
+	}
+}
+
+@mixin desktops {
+	@media only screen and (min-width: map-get($breakpoints, desktops-min)) and (orientation : landscape) {
+		@content;
+	}
+}
