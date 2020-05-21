@@ -6,6 +6,7 @@
     background-image: linear-gradient(to right bottom, $menu2-gradient);
 	-webkit-background-clip: text;
 	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	color: $menu2-title;
 }
 
@@ -15,6 +16,7 @@
     background-image: linear-gradient(to right bottom, $menu3-gradient);
 	-webkit-background-clip: text;
 	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	color: $menu2-title;
 }
 
@@ -24,6 +26,7 @@
     background-image: linear-gradient(to right bottom, $menu4-gradient_card);
 	-webkit-background-clip: text;
 	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	color: $menu2-title;
 }
 
@@ -31,6 +34,7 @@
     background-image: linear-gradient(to right bottom, $menu4-gradient);
 	-webkit-background-clip: text;
 	background-clip: text;
+	-webkit-text-fill-color: transparent;
 	color: $menu2-title;
 }
 
