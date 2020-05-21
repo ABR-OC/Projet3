@@ -97,6 +97,8 @@ header .header_title {
   font-family: "Kurale";
   background-image: linear-gradient(to right bottom, #c67412, #c67412, #c67412, #c67412, #c67412, #c67412, #af5c99, #a15da3, #9b57ac, #9151b6, #834ec0, #6e4ccc);
   -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 .menu-grid_item--card2 h3 {
@@ -116,6 +118,8 @@ header .header_title {
   font-family: "Dancing Script";
   background-image: linear-gradient(to right bottom, #0431df, #0431df, #0431df, #0431df, #0431df, #003ae3, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb);
   -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   font-size: x-large;
   font-weight: lighter;
@@ -137,6 +141,8 @@ header .header_title {
   font-family: "Kaushan Script";
   background-image: linear-gradient(to right bottom, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #9ce26c, #a5e970, #adf075, #b6f879, #bfff7e, #bfff7e);
   -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   margin: 1.8em 0em -1em;
 }
@@ -379,6 +385,7 @@ footer a {
   font-family: "Kurale";
   background-image: linear-gradient(to right bottom, #c67412, #c67412, #c67412, #c67412, #c67412, #c67412, #af5c99, #a15da3, #9b57ac, #9151b6, #834ec0, #6e4ccc);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   font-weight: 500;
@@ -438,6 +445,7 @@ footer a {
   font-family: "Dancing Script";
   background-image: linear-gradient(to right bottom, #0431df, #0431df, #0431df, #0431df, #0431df, #003ae3, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb, #0887fb);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   font-size: 3.5em;
@@ -485,6 +493,7 @@ footer a {
   font-family: "Kaushan Script";
   background-image: linear-gradient(to right bottom, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #4c9f42, #55a747, #bfff7e, #bfff7e, #bfff7e, #bfff7e, #bfff7e, #bfff7e);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
   font-size: 3.5em;
