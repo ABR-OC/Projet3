@@ -5,6 +5,7 @@
 @mixin gradient($menu2-gradient) {
     background-image: linear-gradient(to right bottom, $menu2-gradient);
 	-webkit-background-clip: text;
+	background-clip: text;
 	color: $menu2-title;
 }
 
@@ -13,6 +14,7 @@
 @mixin gradient($menu3-gradient) {
     background-image: linear-gradient(to right bottom, $menu3-gradient);
 	-webkit-background-clip: text;
+	background-clip: text;
 	color: $menu2-title;
 }
 
@@ -21,12 +23,14 @@
 @mixin gradient($menu4-gradient_card) {
     background-image: linear-gradient(to right bottom, $menu4-gradient_card);
 	-webkit-background-clip: text;
+	background-clip: text;
 	color: $menu2-title;
 }
 
 @mixin gradient($menu4-gradient) {
     background-image: linear-gradient(to right bottom, $menu4-gradient);
 	-webkit-background-clip: text;
+	background-clip: text;
 	color: $menu2-title;
 }
 
