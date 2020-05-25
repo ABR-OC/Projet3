@@ -69,7 +69,7 @@ header .header_title {
 .menu-grid_item--card1 {
   color: #000;
   background-color: #fcdfdb;
-  padding: 7.5em 1.5em;
+  padding: 6.75em 1.5em;
 }
 .menu-grid_item--card1 h2 {
   font-family: "Devonshire";
@@ -84,7 +84,7 @@ header .header_title {
   margin-top: -0.3em;
 }
 .menu-grid_item--card1 .card1_note {
-  width: 18%;
+  width: 28%;
   margin-bottom: -2em;
 }
 
@@ -592,7 +592,7 @@ footer a {
 .menu_h4--underline::after {
   content: "";
   display: block;
-  height: 3px;
+  height: 2px;
   width: 0;
   transition: width 0.5s ease;
 }
