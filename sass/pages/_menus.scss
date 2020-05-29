@@ -65,7 +65,8 @@
 	}
 
 	@include smartphones {
-		width: 25em;
+		width: 24em;
+		font-size: 0.8em;
 
 		&_content {
 		justify-content: center;

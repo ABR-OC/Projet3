@@ -4,24 +4,24 @@
 
 .menu-grid {
 	display: inline-grid;
-	grid-template-columns: 14.5em 14.5em;
-	grid-template-rows: 20em 20em;
-	grid-gap: 2.7em 3em;
+	grid-template-columns: 18em 18em;
+	grid-template-rows: 25em 25em;
+	grid-gap: 4em 3em;
 	justify-content: center;
 	align-content: center;
 	align-items: center;
-	padding: 0em 3em 3em;
+	padding: 1em 3em 5em;
 
 	&_item {
 		text-align: center;
-		font-size: 0.8em;
+		font-size: 1em;
 		box-shadow: 0em 0em 0.625em #ccc;
 	}
 
 	@include smartphones {
 		display: grid;
-		grid-template-columns: 14.5em;
-		grid-row-gap: 2em;
+		grid-template-columns: 18em;
+		grid-row-gap: 4em;
 	}
 }
 
@@ -30,7 +30,7 @@
 .menu-grid_item--card1 {
 	color: $third-Color;
 	background-color: $menu1-background;
-	padding: 6.75em 1.5em;
+	padding: 7.3em 1.5em;
 
 	& h2{
 		font-family: $font-menu1_title;
@@ -41,7 +41,7 @@
 		font-family: $font-menu1_subtitle;
 		font-style: italic;
 		text-transform : uppercase;
-		font-size: xx-large;
+		font-size: 2.5em;
 		font-weight: lighter;
 		margin-top: -0.3em;
 	}
@@ -56,7 +56,7 @@
 
 .menu-grid_item--card2 {
 	background-color: $menu2-background;
-	padding: 8.5em 1.5em;
+	padding: 9em 1.5em;
 
 	& h2 {
 		font-family: $font-menu2_title;
@@ -66,7 +66,7 @@
 	& h3 {
 		font-family: $font-menu2_subtitle;
 		color: $menu2-subtitle;
-		font-size: x-large;
+		font-size: xx-large;
 		letter-spacing: 0.1em;
 		margin-top: -0.3em;
 	}
@@ -76,12 +76,12 @@
 
 .menu-grid_item--card3 {
 	background-color: $menu3-background;
-	padding: 6.3em 1.5em;
+	padding: 7.4em 1.5em;
 
 	& h2 {
 		font-family: $font-menu3_title;
 		@include gradient($menu3-gradient);
-		font-size: x-large;
+		font-size: xx-large;
 		font-weight: lighter;
 		margin: 1.8em 0em -1em;
 	}
@@ -98,11 +98,12 @@
 
 .menu-grid_item--card4 {
 	background-color: $menu4-background;
-	padding: 6.5em 1.5em;
+	padding: 7.2em 1.5em;
 
 	& h2 {
 		font-family: $font-menu4_title;
 		@include gradient($menu4-gradient_card);
+		font-size: xx-large;
 		margin: 1.8em 0em -1em;
 	}
 
