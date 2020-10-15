@@ -1,4 +1,4 @@
-# Projet3 : OC Projet 3 : Dynamisez une page web avec des animations CSS
+# Projet3 : Dynamisez une page web avec des animations CSS
 <img src="4.png">
 <h3>Technologies utilisées :</h3>
 
